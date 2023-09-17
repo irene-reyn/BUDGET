@@ -13,7 +13,8 @@ Tables always have to be named properly for easier referencing. The data has to 
 ### POWER QUERY
 To enable power query, you can find the get data on the Data tab. Since the tables are already in desktop you can click on add query to add, depending on your version. The selected table would be loaded into power query. You may add a new table by adding a new query and one easy way is by copying the M Code of the source in the applied step. The code would contain the name of the initial table queried because the code was copied, then you can replace that with the name of the new table to be queried and it would be loaded automatically. 
 With the budget table, the date are pivoted and would need to be unpivoted to be ale to analyza by column. When it is unpivoted, it would be separated into atrributes and values. The attributes can be renamed to Date and changed typed to Date then the value can be renamed to amount. When loading remeber to check the "create only connection".
-### POWER PIVOT
+### POWER PIVOT / DASHBOARD CALCULATIONS
+To create a data model among pivot tables or columns. You find the Pivot Table Analyze Tab, then go to Field lists under analyze to enable PivotTable Fields. 
 
 
 ### DASHBOARD
